@@ -1,12 +1,18 @@
 #include <stdio.h>
 
+
+
 /**
 
- * main - Entry point
+ * main - print the size
 
  *
 
- * Return: always 0
+ * Description: using the main function
+
+ * this program prints the size
+
+ * Return: 0
 
  */
 
