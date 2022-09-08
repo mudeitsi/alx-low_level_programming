@@ -1,13 +1,23 @@
 #include <stdio.h>
 
+
+
 /**
-* main - print size
+
+* main - print the size
+
 *
+
 * Description: using the main function
-*this program prints size of various types on the computer it is compiled and run on
+
+* this program prints the size
+
 * Return: 0
+
 */
+
 int main(void)
+
 {
 
 	char c;
