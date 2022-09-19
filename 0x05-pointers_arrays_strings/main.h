@@ -3,6 +3,7 @@
 
 /**
 * void prototypes()
+* int prototypes()
 */
 
 void reset_to_98(int *n);
@@ -18,3 +19,4 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *str);
 
 #endif /*MAIN_H*/
+
