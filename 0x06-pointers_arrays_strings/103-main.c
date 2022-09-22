@@ -50,22 +50,10 @@ int main(void)
         if (res == 0)
         {
                 printf("Error\n");
-	}
-	else
-	{
-		printf("%s + %\n", n, m, res);
-	}
-	return (0);
-}
-
-        else
-
-        {
-
-                printf("%s + %s = %s\n", n, m, res);
-
         }
-
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
         return (0);
-
 }
