@@ -1,6 +1,5 @@
-ifndef MAIN.H
-
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 
 void _puts_recursion(char *s);
 int _putchar(char c);
@@ -14,4 +13,4 @@ int prime_found(int i, int j);
 int is_prime_number(int n);
 int is_palindrome(char *s);
 
-#endif
+#endif /*MAIN_H*/
