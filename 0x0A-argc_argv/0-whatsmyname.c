@@ -1,17 +1,17 @@
-#include "holberton.h"
+#include <stdlib.h>
 #include <stdio.h>
-#define UNUSED(x) (void)(x)
+#include "main.h"
 
 /**
- * main - function that prints file name
- * @argc: count of the artguments supplied
+ * main - function to print file name
+ * @argc: count of the arguments supplied to the program and the
  * @argv: an array of pointers to the strings
- *Return: always 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
 {
-	UNUSED(argc);
-	printf("%s\n", argv[0]);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
 	return (0);
 }
