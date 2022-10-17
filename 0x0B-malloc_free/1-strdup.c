@@ -4,7 +4,7 @@
 
 /**
  * _strdup - function that returns a pointer to string
- * 
+ *
  * Description: function that returns a pointer to
  * a newly allocated memory containing copy of
  * string given as a parameter
